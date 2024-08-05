@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image:linear-gradient(#00000000, #012b4d66), url('/img/backgroundDesktop.jpg');
+    background-image:linear-gradient(#00000000, #012b4d66), url('../img/backgroundDesktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -88,6 +88,11 @@ body {
 
 
 @media (max-width: 768px) {
+
+    body{
+        background-image:linear-gradient(#00000000, #012b4d66), url('../img/backgroundMovil.png');
+        background-position: center;
+    }
 
     .login__container{
         display: flex;
